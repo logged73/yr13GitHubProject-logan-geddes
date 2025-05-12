@@ -21,8 +21,8 @@ class_name MVehicle_AI_NaviRegion # Class so it is easier to find in Add Child N
 @export_category("AI Settings")
 @export_group("AI")
 @export var enable_debug : bool = false # This will display debug info like AI path and Vehicle coordinations
-@export var max_speed : float = 50.0 # Max power this car will receive
-@export var max_rev_speed : float = -1500.0
+@export var max_speed : float = 500.0 # Max power this car will receive
+@export var max_rev_speed : float = -15000.0
 @export var nav : NavigationAgent3D # Definition for our navigation agent
 @export var target_ray : Node3D # Definition for nodes we want our AI to generate path to
 @export_range(1.0, 45.0) var steering_sensitivity: float = 40.0 # Max angle our car cant turn its wheels
@@ -36,8 +36,8 @@ class_name MVehicle_AI_NaviRegion # Class so it is easier to find in Add Child N
 @export_category("Vehicle Settings")
 @export_group("Energy")
 @export var use_energy : bool = false
-@export var max_energy : float = 150.0 # Max Energy capacity we can have
-@export var energy_consumption_rate : float = 0.01 # Rate in which we gonna consume energy from our vehicle
+@export var max_energy : float = 1050.0 # Max Energy capacity we can have
+@export var energy_consumption_rate : float = 0.31 # Rate in which we gonna consume energy from our vehicle
 @export_range(1, 10) var drain_penalty : int = 6 # Penalty that will be applie to gear_ratio when we run out of energy
 
 @export_group("Wheels")
@@ -129,5 +129,5 @@ func _physics_process(delta: float) -> void:
 			
 	# This part makes the car go in reverse if obstacle is in front of it
 func _reverse_car(delta: float, target_angle) -> void:
-	engine_force = max_rev_speed # Apply negative engine force to make car drive in reverse
+	engine_force = max_rev_speed # Apply negative engine force to mwp'ake car drive in reverse
 	target_angle = target_angle * PI # Get vehicle steering and apply PI to reverse it soo that car will not get stuck
