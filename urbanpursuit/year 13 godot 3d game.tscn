@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cq7jokub0bpje"]
+
+[ext_resource type="PackedScene" uid="uid://duhhppmjo7k6f" path="res://Advanced Vehicle Controller/Scenes/Debug_Map.tscn" id="1_8yqph"]
+
+[node name="assests" type="Node2D"]
+
+[node name="Debug_Map" parent="." instance=ExtResource("1_8yqph")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3066, 0, 1.80327)
