@@ -1762,7 +1762,7 @@ transform = Transform3D(-4.49401, 0, 0.0386699, 0, 4.49417, 0, -0.0386699, 0, -4
 transform = Transform3D(-4.46147, 0, 0.03839, 0, 4.46164, 0, -0.03839, 0, -4.46147, -97.4462, 1.01328e-06, 112.412)
 
 [node name="road_junction5" parent="road_junction2" instance=ExtResource("10_0wlyr")]
-transform = Transform3D(-4.46609, 0, 0.0384297, 0, 4.46626, 0, -0.0384297, 0, -4.46609, -62.3461, 0.00296503, 122.027)
+transform = Transform3D(-4.46609, 0, 0.0384297, 0, 4.46626, 0, -0.0384297, 0, -4.46609, -62.3461, 0.00296503, 121.993)
 
 [node name="road_junction6" parent="road_junction2" instance=ExtResource("10_0wlyr")]
 transform = Transform3D(-4.46526, 0, 0.0944699, 0, 4.46626, 0, -0.0944699, 0, -4.46526, 23.6208, 0.00296503, 124.198)
@@ -1793,9 +1793,6 @@ transform = Transform3D(-0.113997, 0, -4.46351, 0, 4.46497, 0, 4.46351, 0, -0.11
 
 [node name="road_straight68" parent="road_junction2" instance=ExtResource("11_6xb8w")]
 transform = Transform3D(-0.113997, 0, -4.46351, 0, 4.46497, 0, 4.46351, 0, -0.113997, 8.26151, 0.017861, 123.768)
-
-[node name="road_straight69" parent="road_junction2" instance=ExtResource("11_6xb8w")]
-transform = Transform3D(-0.113997, 0, -4.46351, 0, 4.46497, 0, 4.46351, 0, -0.113997, -70.8206, -0.0127794, 77.6056)
 
 [node name="road_straight70" parent="road_junction2" instance=ExtResource("11_6xb8w")]
 transform = Transform3D(-0.113997, 0, -4.46351, 0, 4.46497, 0, 4.46351, 0, -0.113997, -79.6459, -0.0127794, 77.3723)
@@ -2203,7 +2200,7 @@ transform = Transform3D(-0.0270411, 0, 4.46489, 0, 4.46497, 0, -4.46489, 0, -0.0
 transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.0755869, 42.324, 3.03984e-06, 4.56699)
 
 [node name="road_straight8" parent="road_junction3" instance=ExtResource("11_6xb8w")]
-transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.0755869, 51.1575, 3.03984e-06, 4.71)
+transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.0755869, 51.1575, 3.03984e-06, 4.70966)
 
 [node name="road_straight10" parent="road_junction3" instance=ExtResource("11_6xb8w")]
 transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.0755869, -10.674, 3.03984e-06, 3.822)
@@ -2237,9 +2234,6 @@ transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.075
 
 [node name="road_straight15" parent="road_junction3" instance=ExtResource("11_6xb8w")]
 transform = Transform3D(0.0755869, 0, 4.46433, 0, 4.46497, 0, -4.46433, 0, 0.0755869, -28.2644, 0.017861, 3.48399)
-
-[node name="road_junction2" parent="road_junction3" instance=ExtResource("10_0wlyr")]
-transform = Transform3D(4.43193, 0, 0, 0, 4.43193, 0, 0, 0, 4.43193, 59.8588, 2.44379e-06, 49.0622)
 
 [node name="base2" parent="road_junction3" instance=ExtResource("21_8ypyu")]
 transform = Transform3D(14.555, 0, 0, 0, 14.555, 0, 0, 0, 14.555, 42.8809, -1.15159, 30.6684)
@@ -2342,9 +2336,6 @@ transform = Transform3D(0.0147629, 0, -1.23117, 0, 1.23126, 0, 1.23117, 0, 0.014
 
 [node name="building_D2" parent="building_A4" instance=ExtResource("14_51kjp")]
 transform = Transform3D(0.908848, 0, -0.0135475, 0, 0.908949, 0, 0.0135475, 0, 0.908848, 1.64821, 0.0131862, 0.119434)
-
-[node name="building_E2" parent="building_A4" instance=ExtResource("15_f4li7")]
-transform = Transform3D(1.02327, 0, -0.013967, 0, 1.02337, 0, 0.013967, 0, 1.02327, 3.5975, 0.00492379, 0.0522137)
 
 [node name="building_A6" parent="building_A4" instance=ExtResource("12_6xb8w")]
 transform = Transform3D(-0.999841, 0, 0.0178014, 0, 1, 0, -0.0178014, 0, -0.999841, -12.3599, 0, 3.52821)
@@ -2536,10 +2527,7 @@ transform = Transform3D(0.00625794, 0, 0.916975, 0, 0.916996, 0, -0.916975, 0, 0
 transform = Transform3D(0.908176, 0, -0.00521495, 0, 0.908191, 0, 0.00521495, 0, 0.908176, -15.125, 0.00843994, -0.133665)
 
 [node name="road_tsplit3" parent="." instance=ExtResource("16_0axow")]
-transform = Transform3D(-0.131376, 0, -4.45008, 0, 4.45202, 0, 4.45008, 0, -0.131376, -36.464, 0.499998, -53.9603)
-
-[node name="road_tsplit3" parent="road_tsplit3" instance=ExtResource("16_0axow")]
-transform = Transform3D(1, 0, 0.00160581, 0, 1, 0, -0.00160581, 0, 1, 0.245546, 0.00547975, 17.8397)
+transform = Transform3D(-4.44992, 0, 0.136735, 0, 4.45202, 0, -0.136735, 0, -4.44992, -36.4964, 0.499998, -53.9603)
 
 [node name="road_tsplit6" parent="road_tsplit3" instance=ExtResource("16_0axow")]
 transform = Transform3D(0.0347948, 0, -0.999395, 0, 1, 0, 0.999395, 0, 0.0347948, 16.8459, 0, 7.52873)
