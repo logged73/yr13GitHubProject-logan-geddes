@@ -3126,311 +3126,311 @@ transform = Transform3D(1.1073, 0, 2.77673, 0, 2.98937, 0, -2.77673, 0, 1.1073, 
 [node name="Mounting_3" parent="." instance=ExtResource("35_pu78c")]
 transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 507.814, 4.02639, -209.648)
 
-[node name="Mounting_9" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 502.747, 3.77729, -218.492)
+[node name="Mounting_9" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, -9.9388, -0.2491, -2.26178)
 
-[node name="Mounting_10" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 496.45, 4.02639, -225.653)
+[node name="Mounting_10" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.472, 0, -2.47852)
 
-[node name="Mounting_11" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 491.383, 3.77729, -234.497)
+[node name="Mounting_11" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, -29.4108, -0.2491, -4.7403)
 
-[node name="Mounting_12" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 482.393, 4.02639, -236.978)
+[node name="Mounting_12" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -37.3242, 0, 0.194153)
 
-[node name="Mounting_13" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 474.178, 3.77729, -243.012)
+[node name="Mounting_13" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -47.3273, -0.2491, 2.15192)
 
-[node name="Mounting_14" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 465.52, 4.02639, -247.008)
+[node name="Mounting_14" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -56.1313, 0, 5.81509)
 
-[node name="Mounting_15" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 457.305, 3.77729, -253.042)
+[node name="Mounting_15" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -66.1345, -0.2491, 7.77283)
 
-[node name="Mounting_16" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 468.279, 4.02639, -246.87)
+[node name="Mounting_16" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -54.1609, 0, 3.87888)
 
-[node name="Mounting_17" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 460.064, 3.77729, -252.904)
+[node name="Mounting_17" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -64.1641, -0.2491, 5.83661)
 
-[node name="Mounting_18" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 451.407, 4.02639, -256.901)
+[node name="Mounting_18" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -72.9681, 0, 9.49982)
 
-[node name="Mounting_19" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 443.192, 3.77729, -262.935)
+[node name="Mounting_19" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -82.9712, -0.2491, 11.4576)
 
-[node name="Mounting_20" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 595.578, 4.02639, -186.598)
+[node name="Mounting_20" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 76.3972, 0, -48.9623)
 
-[node name="Mounting_21" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 587.182, 3.77729, -192.378)
+[node name="Mounting_21" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 66.4585, -0.2491, -46.7001)
 
-[node name="Mounting_22" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 578.407, 4.02639, -196.109)
+[node name="Mounting_22" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 57.7704, 0, -42.77)
 
-[node name="Mounting_23" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 570.012, 3.77729, -201.889)
+[node name="Mounting_23" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 47.8317, -0.2491, -40.5078)
 
-[node name="Mounting_24" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 560.834, 4.02639, -200.235)
+[node name="Mounting_24" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 42.8331, 0, -32.6347)
 
-[node name="Mounting_25" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 550.816, 3.77729, -202.12)
+[node name="Mounting_25" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 34.6625, -0.2491, -26.5408)
 
-[node name="Mounting_26" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 541.282, 4.02639, -201.976)
+[node name="Mounting_26" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 28.3109, 0, -19.4285)
 
-[node name="Mounting_27" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 531.265, 3.77729, -203.86)
+[node name="Mounting_27" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 20.1403, -0.2491, -13.3345)
 
-[node name="Mounting_28" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 543.829, 4.02639, -203.045)
+[node name="Mounting_28" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 29.2493, 0, -22.0267)
 
-[node name="Mounting_29" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 533.812, 3.77729, -204.93)
+[node name="Mounting_29" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 21.0786, -0.2491, -15.9327)
 
-[node name="Mounting_30" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 524.277, 4.02639, -204.786)
+[node name="Mounting_30" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 14.7271, 0, -8.82025)
 
-[node name="Mounting_31" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 514.26, 3.77729, -206.67)
+[node name="Mounting_31" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 6.55647, -0.2491, -2.72638)
 
-[node name="Mounting_32" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 507.814, 13.2464, -214.775)
+[node name="Mounting_32" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.77229, 9.21999, -3.47235)
 
-[node name="Mounting_33" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 502.747, 12.9973, -223.619)
+[node name="Mounting_33" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, -13.7111, 8.97089, -5.73407)
 
-[node name="Mounting_34" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 496.45, 13.2464, -230.78)
+[node name="Mounting_34" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.2443, 9.21999, -5.95087)
 
-[node name="Mounting_35" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 491.383, 12.9973, -239.624)
+[node name="Mounting_35" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, -33.1831, 8.97089, -8.21259)
 
-[node name="Mounting_36" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 482.393, 13.2464, -242.105)
+[node name="Mounting_36" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -41.0965, 9.21999, -3.2782)
 
-[node name="Mounting_37" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 474.178, 12.9973, -248.139)
+[node name="Mounting_37" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -51.0996, 8.97089, -1.32043)
 
-[node name="Mounting_38" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 465.52, 13.2464, -252.136)
+[node name="Mounting_38" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -59.9036, 9.21999, 2.34277)
 
-[node name="Mounting_39" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 457.305, 12.9973, -258.17)
+[node name="Mounting_39" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -69.9068, 8.97089, 4.30051)
 
-[node name="Mounting_40" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 468.279, 13.2464, -251.997)
+[node name="Mounting_40" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -57.9332, 9.21999, 0.406555)
 
-[node name="Mounting_41" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 460.064, 12.9973, -258.031)
+[node name="Mounting_41" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -67.9364, 8.97089, 2.36432)
 
-[node name="Mounting_42" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 451.407, 13.2464, -262.028)
+[node name="Mounting_42" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, -76.7404, 9.21999, 6.02747)
 
-[node name="Mounting_43" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 443.192, 12.9973, -268.062)
+[node name="Mounting_43" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, -86.7435, 8.97089, 7.98526)
 
-[node name="Mounting_44" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 595.578, 13.2464, -191.725)
+[node name="Mounting_44" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 72.6249, 9.21999, -52.4346)
 
-[node name="Mounting_45" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 587.182, 12.9973, -197.505)
+[node name="Mounting_45" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 62.6862, 8.97089, -50.1724)
 
-[node name="Mounting_46" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 578.407, 13.2464, -201.236)
+[node name="Mounting_46" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 53.9981, 9.21999, -46.2423)
 
-[node name="Mounting_47" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 570.012, 12.9973, -207.016)
+[node name="Mounting_47" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 44.0594, 8.97089, -43.9801)
 
-[node name="Mounting_48" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 560.834, 13.2464, -205.362)
+[node name="Mounting_48" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 39.0608, 9.21999, -36.1071)
 
-[node name="Mounting_49" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 550.816, 12.9973, -207.247)
+[node name="Mounting_49" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 30.8902, 8.97089, -30.0131)
 
-[node name="Mounting_50" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 541.282, 13.2464, -207.103)
+[node name="Mounting_50" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 24.5387, 9.21999, -22.9008)
 
-[node name="Mounting_51" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 531.265, 12.9973, -208.987)
+[node name="Mounting_51" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 16.368, 8.97089, -16.8068)
 
-[node name="Mounting_52" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 543.829, 13.2464, -208.172)
+[node name="Mounting_52" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 25.477, 9.21999, -25.499)
 
-[node name="Mounting_53" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 533.812, 12.9973, -210.057)
+[node name="Mounting_53" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 17.3064, 8.97089, -19.405)
 
-[node name="Mounting_54" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 524.277, 13.2464, -209.913)
+[node name="Mounting_54" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 10.9548, 9.21999, -12.2925)
 
-[node name="Mounting_55" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 514.26, 12.9973, -211.797)
+[node name="Mounting_55" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 2.78418, 8.97089, -6.19873)
 
-[node name="Mounting_56" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 673.577, 4.02639, -127.201)
+[node name="Mounting_56" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 172.924, 0, -66.124)
 
-[node name="Mounting_57" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 668.51, 3.77729, -136.045)
+[node name="Mounting_57" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, 162.985, -0.2491, -68.3858)
 
-[node name="Mounting_58" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 662.213, 4.02639, -143.206)
+[node name="Mounting_58" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.452, 0, -68.6026)
 
-[node name="Mounting_59" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 657.146, 3.77729, -152.05)
+[node name="Mounting_59" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, 143.513, -0.2491, -70.8643)
 
-[node name="Mounting_60" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 648.157, 4.02639, -154.531)
+[node name="Mounting_60" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 135.6, 0, -65.9299)
 
-[node name="Mounting_61" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 639.942, 3.77729, -160.565)
+[node name="Mounting_61" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 125.596, -0.2491, -63.9721)
 
-[node name="Mounting_62" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 631.284, 4.02639, -164.561)
+[node name="Mounting_62" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 116.792, 0, -60.3089)
 
-[node name="Mounting_63" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 623.069, 3.77729, -170.595)
+[node name="Mounting_63" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 106.789, -0.2491, -58.3512)
 
-[node name="Mounting_64" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 634.043, 4.02639, -164.423)
+[node name="Mounting_64" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 118.763, 0, -62.2452)
 
-[node name="Mounting_65" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 625.828, 3.77729, -170.457)
+[node name="Mounting_65" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 108.76, -0.2491, -60.2874)
 
-[node name="Mounting_66" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 617.17, 4.02639, -174.454)
+[node name="Mounting_66" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 99.9558, 0, -56.6242)
 
-[node name="Mounting_67" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 608.955, 3.77729, -180.488)
+[node name="Mounting_67" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 89.9526, -0.2491, -54.6664)
 
-[node name="Mounting_68" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 761.341, 4.02639, -104.151)
+[node name="Mounting_68" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 249.321, 0, -115.086)
 
-[node name="Mounting_69" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 752.946, 3.77729, -109.931)
+[node name="Mounting_69" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 239.382, -0.2491, -112.824)
 
-[node name="Mounting_70" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 744.17, 4.02639, -113.662)
+[node name="Mounting_70" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 230.694, 0, -108.894)
 
-[node name="Mounting_71" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 735.775, 3.77729, -119.442)
+[node name="Mounting_71" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 220.756, -0.2491, -106.632)
 
-[node name="Mounting_72" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 726.597, 4.02639, -117.788)
+[node name="Mounting_72" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 215.757, 0, -98.7587)
 
-[node name="Mounting_73" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 716.58, 3.77729, -119.672)
+[node name="Mounting_73" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 207.586, -0.2491, -92.6649)
 
-[node name="Mounting_74" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 707.045, 4.02639, -119.529)
+[node name="Mounting_74" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 201.235, 0, -85.5525)
 
-[node name="Mounting_75" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 697.028, 3.77729, -121.413)
+[node name="Mounting_75" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 193.064, -0.2491, -79.4584)
 
-[node name="Mounting_76" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 709.592, 4.02639, -120.598)
+[node name="Mounting_76" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 202.173, 0, -88.1506)
 
-[node name="Mounting_77" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 699.575, 3.77729, -122.482)
+[node name="Mounting_77" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 194.002, -0.2491, -82.0568)
 
-[node name="Mounting_78" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 690.041, 4.02639, -122.339)
+[node name="Mounting_78" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 187.651, 0, -74.9443)
 
-[node name="Mounting_79" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 680.024, 3.77729, -124.223)
+[node name="Mounting_79" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 179.48, -0.2491, -68.8504)
 
-[node name="Mounting_80" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 673.577, 13.2464, -132.328)
+[node name="Mounting_80" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 169.151, 9.21999, -69.5964)
 
-[node name="Mounting_81" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 668.51, 12.9973, -141.172)
+[node name="Mounting_81" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, 159.213, 8.97089, -71.8581)
 
-[node name="Mounting_82" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.677248, 0, -0.735754, 0, 1, 0, 0.735754, 0, 0.677248, 662.213, 13.2464, -148.333)
+[node name="Mounting_82" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.679, 9.21999, -72.0749)
 
-[node name="Mounting_83" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.299957, 0, -0.953953, 0, 1, 0, 0.953953, 0, 0.299957, 657.146, 12.9973, -157.177)
+[node name="Mounting_83" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.90502, 0, -0.425369, 0, 1, 0, 0.425369, 0, 0.90502, 139.741, 8.97089, -74.3366)
 
-[node name="Mounting_84" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 648.157, 13.2464, -159.658)
+[node name="Mounting_84" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 131.827, 9.21999, -69.4022)
 
-[node name="Mounting_85" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 639.942, 12.9973, -165.692)
+[node name="Mounting_85" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 121.824, 8.97089, -67.4445)
 
-[node name="Mounting_86" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 631.284, 13.2464, -169.689)
+[node name="Mounting_86" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 113.02, 9.21999, -63.7813)
 
-[node name="Mounting_87" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 623.069, 12.9973, -175.723)
+[node name="Mounting_87" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 103.017, 8.97089, -61.8235)
 
-[node name="Mounting_88" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 634.043, 13.2464, -169.55)
+[node name="Mounting_88" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 114.991, 9.21999, -65.7175)
 
-[node name="Mounting_89" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 625.828, 12.9973, -175.584)
+[node name="Mounting_89" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 104.987, 8.97089, -63.7597)
 
-[node name="Mounting_90" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.91722, 0, -0.398381, 0, 1, 0, 0.398381, 0, 0.91722, 617.17, 13.2464, -179.581)
+[node name="Mounting_90" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.914296, 0, 0.405046, 0, 1, 0, -0.405046, 0, 0.914296, 96.1835, 9.21999, -60.0966)
 
-[node name="Mounting_91" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.660644, 0, -0.750699, 0, 1, 0, 0.750699, 0, 0.660644, 608.955, 12.9973, -185.615)
+[node name="Mounting_91" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.99975, 0, -0.0223383, 0, 1, 0, 0.0223383, 0, 0.99975, 86.1803, 8.97089, -58.1387)
 
-[node name="Mounting_92" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 761.341, 13.2464, -109.278)
+[node name="Mounting_92" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 245.549, 9.21999, -118.559)
 
-[node name="Mounting_93" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 752.946, 12.9973, -115.058)
+[node name="Mounting_93" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 235.61, 8.97089, -116.296)
 
-[node name="Mounting_94" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.928952, 0, -0.370201, 0, 1, 0, 0.370201, 0, 0.928952, 744.17, 13.2464, -118.789)
+[node name="Mounting_94" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.901508, 0, 0.432762, 0, 1, 0, -0.432762, 0, 0.901508, 226.922, 9.21999, -112.366)
 
-[node name="Mounting_95" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.683248, 0, -0.730186, 0, 1, 0, 0.730186, 0, 0.683248, 735.775, 12.9973, -124.569)
+[node name="Mounting_95" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.999967, 0, 0.00818557, 0, 1, 0, -0.00818557, 0, 0.999967, 216.983, 8.97089, -110.104)
 
-[node name="Mounting_96" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 726.597, 13.2464, -122.915)
+[node name="Mounting_96" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 211.985, 9.21999, -102.231)
 
-[node name="Mounting_97" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 716.58, 12.9973, -124.8)
+[node name="Mounting_97" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 203.814, 8.97089, -96.1371)
 
-[node name="Mounting_98" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 707.045, 13.2464, -124.656)
+[node name="Mounting_98" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 197.462, 9.21999, -89.0248)
 
-[node name="Mounting_99" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 697.028, 12.9973, -126.54)
+[node name="Mounting_99" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 189.292, 8.97089, -82.9308)
 
-[node name="Mounting_100" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 709.592, 13.2464, -125.725)
+[node name="Mounting_100" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 198.401, 9.21999, -91.623)
 
-[node name="Mounting_101" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 699.575, 12.9973, -127.61)
+[node name="Mounting_101" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 190.23, 8.97089, -85.5291)
 
-[node name="Mounting_102" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.999286, 0, 0.0377949, 0, 1, 0, -0.0377949, 0, 0.999286, 690.041, 13.2464, -127.466)
+[node name="Mounting_102" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.648957, 0, 0.760825, 0, 1, 0, -0.760825, 0, 0.648957, 183.879, 9.21999, -78.4166)
 
-[node name="Mounting_103" parent="." instance=ExtResource("35_pu78c")]
-transform = Transform3D(0.92045, 0, -0.390859, 0, 1, 0, 0.390859, 0, 0.92045, 680.024, 12.9973, -129.35)
+[node name="Mounting_103" parent="Mounting_3" instance=ExtResource("35_pu78c")]
+transform = Transform3D(0.91095, 0, 0.412516, 0, 1, 0, -0.412516, 0, 0.91095, 175.708, 8.97089, -72.3228)
 
-[node name="Mounting_2" parent="." instance=ExtResource("36_pvx77")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 192.348, 0.818306, 86.4186)
+[node name="Mounting_2" parent="Mounting_3" instance=ExtResource("36_pvx77")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, 4.18312, -3.20808, 432.616)
 
-[node name="Mounting_4" parent="." instance=ExtResource("36_pvx77")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 192.348, 8.60988, -32.713)
+[node name="Mounting_4" parent="Mounting_3" instance=ExtResource("36_pvx77")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, -83.4685, 4.5835, 351.935)
 
-[node name="Mounting_6" parent="." instance=ExtResource("36_pvx77")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 436.678, 0.324263, -170.371)
+[node name="Mounting_6" parent="Mounting_3" instance=ExtResource("36_pvx77")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, -19.2791, -3.70213, 78.9387)
 
-[node name="Mounting_5" parent="." instance=ExtResource("36_pvx77")]
-transform = Transform3D(0.969757, -0.244072, 0, 0.235733, 0.936626, 0.259156, -0.0632528, -0.251319, 0.965835, 475.244, 13.9397, -32.713)
+[node name="Mounting_5" parent="Mounting_3" instance=ExtResource("36_pvx77")]
+transform = Transform3D(0.610228, -0.350206, 0.710618, 0.235733, 0.936626, 0.259156, -0.756341, 0.00937198, 0.654111, 108.123, 9.91328, 143.792)
 
-[node name="Mounting_1" parent="." instance=ExtResource("37_bjnnm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 172.421, -3.50052, -143.07)
+[node name="Mounting_1" parent="Mounting_3" instance=ExtResource("37_bjnnm")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, -178.159, -7.52691, 291.856)
 
-[node name="Mounting_7" parent="." instance=ExtResource("37_bjnnm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 638.178, 6.26982, -143.07)
+[node name="Mounting_7" parent="Mounting_3" instance=ExtResource("37_bjnnm")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, 137.274, 2.24343, -50.8261)
 
-[node name="Mounting_8" parent="." instance=ExtResource("37_bjnnm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 638.178, 32.474, 41.2307)
+[node name="Mounting_8" parent="Mounting_3" instance=ExtResource("37_bjnnm")]
+transform = Transform3D(0.677248, 0, 0.735754, 0, 1, 0, -0.735754, 0, 0.677248, 272.874, 28.4476, 73.9913)
 
 [node name="Environment_2" parent="." instance=ExtResource("38_tnr6c")]
 transform = Transform3D(3.81361, -2.51307, 28.6145, -0.781633, 28.8458, 2.63756, -28.714, -1.11899, 3.7286, 409.972, 14.0022, 2.59072)
