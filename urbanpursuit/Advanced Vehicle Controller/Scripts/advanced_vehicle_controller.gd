@@ -97,7 +97,7 @@ enum transmission {automatic, manual} # Enum for transmission. Allows to change 
 @export_range(0,3) var wet_grip : float = 2.0 # Modifier for penalty on wet surface, "closer to wheel_grip, More drifty it becomse!" Used for handbreak but can also be used in the environment if desired
 @export var wheels : Array [VehicleWheel3D] # Array of all wheels that player wants to apply wet_grip modifier
 @export var all_wheels : Array [VehicleWheel3D] # Array of all car wheels in case we want to apply different grip based on map setting to all wheels
-
+@export var player_id = 1
 
 
 var acceleration : float # Controlls value of acceleration, range from -1 to 1. Note: this support controllers too!
