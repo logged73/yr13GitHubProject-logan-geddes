@@ -1,9 +1,8 @@
-[gd_scene load_steps=59 format=3 uid="uid://duhhppmjo7k6f"]
+[gd_scene load_steps=57 format=3 uid="uid://duhhppmjo7k6f"]
 
 [ext_resource type="Material" uid="uid://bqhg03u7uopp1" path="res://Advanced Vehicle Controller/Debug content/Black Box.tres" id="1_mhgok"]
 [ext_resource type="Material" uid="uid://dgucgrkhjqrj0" path="res://Advanced Vehicle Controller/Debug content/Red Box.tres" id="2_c6hdh"]
 [ext_resource type="PackedScene" uid="uid://drtkaugr7kqas" path="res://Advanced Vehicle Controller/Vehicle/NightSky/NightSky_Body.tscn" id="2_n77my"]
-[ext_resource type="PackedScene" uid="uid://d1d0adnny67ho" path="res://Advanced Vehicle Controller/Vehicle/Muscle/Muscle Car.tscn" id="6_qf320"]
 [ext_resource type="PackedScene" uid="uid://difi1uhwesclv" path="res://Advanced Vehicle Controller/Vehicle/AI_Vehicles/AI_Muscle_Car.tscn" id="7_cib27"]
 [ext_resource type="Script" uid="uid://byy3atqki4s0k" path="res://Advanced Vehicle Controller/Scripts/Path_Follow_Setup.gd" id="7_m3kbc"]
 [ext_resource type="PackedScene" uid="uid://beg78x7knveom" path="res://Advanced Vehicle Controller/Vehicle/AI_Vehicles/AI_NightSky.tscn" id="9_ado17"]
@@ -91,10 +90,6 @@ _data = {
 "tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 }
 point_count = 13
-
-[sub_resource type="SphereMesh" id="SphereMesh_warua"]
-radial_segments = 12
-rings = 12
 
 [node name="World" type="Node3D"]
 
@@ -1530,25 +1525,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 0.74, -144)
 collision_layer = 9
 allow_color_change = false
 
-[node name="Muscle Car" parent="." instance=ExtResource("6_qf320")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.0871, 1.03855, -144.1)
-use_energy = false
-
 [node name="TRG" parent="." instance=ExtResource("10_qtsp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.8586, 1, -144)
 veh_color = Color(0.764655, 0.485504, 0.280555, 1)
 
-[node name="GT30" parent="." groups=["Vehicle"] instance=ExtResource("11_0wlyr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49, 1, -144)
-is_current_veh = true
-
-[node name="GT31" parent="." groups=["Vehicle"] instance=ExtResource("11_0wlyr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7894, 1, -144)
-is_current_veh = true
-
 [node name="AI_Muscle" parent="." node_paths=PackedStringArray("target_ray") instance=ExtResource("7_cib27")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 81.2077, 1, -83)
-max_speed = 120.0
+max_speed = 2.0
 target_ray = NodePath("../Path3D/PathFollow3D")
 
 [node name="Camera3D" type="Camera3D" parent="AI_Muscle"]
@@ -1569,12 +1552,11 @@ rotation_mode = 4
 script = ExtResource("7_m3kbc")
 active = true
 target_veh = NodePath("../../AI_Muscle")
-speed = 40.0
+speed = 20.0
 max_distance = 30.0
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Path3D/PathFollow3D"]
 material_override = ExtResource("2_c6hdh")
-mesh = SubResource("SphereMesh_warua")
 metadata/_edit_lock_ = true
 
 [node name="road_junction2" parent="." instance=ExtResource("10_0wlyr")]
@@ -3685,3 +3667,42 @@ transform = Transform3D(1.41081, 0, 0, 0, 1.41081, 0, 0, 0, 1.41081, 533.626, 26
 
 [node name="Windmill3" parent="." instance=ExtResource("49_adlq0")]
 transform = Transform3D(1.32885, 0, 0, 0, 1.32885, 0, 0, 0, 1.32885, 546.793, 21.4718, -228.068)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="GridContainer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(574, 648)
+render_target_update_mode = 4
+
+[node name="player 1" parent="GridContainer/SubViewportContainer/SubViewport" groups=["Vehicle"] instance=ExtResource("11_0wlyr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49, 1, -144)
+is_current_veh = true
+
+[node name="SubViewportContainer2" type="SubViewportContainer" parent="GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="GridContainer/SubViewportContainer2"]
+handle_input_locally = false
+size = Vector2i(574, 648)
+render_target_update_mode = 4
+
+[node name="player 2" parent="GridContainer/SubViewportContainer2/SubViewport" groups=["Vehicle"] instance=ExtResource("11_0wlyr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7894, 1, -144)
+is_current_veh = true
+player_id = 2

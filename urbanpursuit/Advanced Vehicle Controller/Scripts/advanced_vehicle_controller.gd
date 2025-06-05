@@ -97,6 +97,8 @@ enum transmission {automatic, manual} # Enum for transmission. Allows to change 
 @export_range(0,3) var wet_grip : float = 2.0 # Modifier for penalty on wet surface, "closer to wheel_grip, More drifty it becomse!" Used for handbreak but can also be used in the environment if desired
 @export var wheels : Array [VehicleWheel3D] # Array of all wheels that player wants to apply wet_grip modifier
 @export var all_wheels : Array [VehicleWheel3D] # Array of all car wheels in case we want to apply different grip based on map setting to all wheels
+
+@export_group("Player Control Settings")
 @export var player_id = 1
 
 
@@ -167,8 +169,8 @@ func _physics_process(delta: float) -> void:
 	if is_current_veh:
 		var velocity_xz = Vector3(linear_velocity.x, 0, linear_velocity.z) # Gets linear velocity of our vehicle in X/Z axis to calculate speed NOTE: We are ignoring Y axis here soo no sound neither speed will be calculated when car will be falling off in Y axis only
 		speed = velocity_xz.length() # Calculates linear velocity of our vehicle to be used in Speed o meter and engine sound
-		steering = lerp(steering, Input.get_axis("Right", "Left") * 0.4, 5 * delta) # Allows our vehicle to turn. Note: This already supports gamepad!
-		acceleration = Input.get_axis("Brake", "Acceleration") # Allows our car to move forward and reverse. Controller supported!
+		steering = lerp(steering, Input.get_axis("Right_%s" % [player_id], "Left_%s" % [player_id]) * 0.4, 5 * delta) # Allows our vehicle to turn. Note: This already supports gamepad!
+		acceleration = Input.get_axis("Brake_%s" % [player_id], "Acceleration_%s" % [player_id]) # Allows our car to move forward and reverse. Controller supported!
 		veh_speed = speed * speed_modifier # Gets vehicle velocity and multiplies it to get semi accurate velocity display on speed o meter, adjustable
 		rpm = rpm_wheel.get_rpm() # Gets RPM from our selected wheel
 		rpm_calclated = clamp(rpm, -max_rpm * gear_ratio[gear], max_rpm * gear_ratio[gear]) # Gets our RPM and calculate it to have max negative RPM and positive RPM to limit our geabox and overall power
