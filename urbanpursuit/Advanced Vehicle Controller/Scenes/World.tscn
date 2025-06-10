@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://duhhppmjo7k6f"]
+[gd_scene load_steps=59 format=3 uid="uid://duhhppmjo7k6f"]
 
 [ext_resource type="Material" uid="uid://bqhg03u7uopp1" path="res://Advanced Vehicle Controller/Debug content/Black Box.tres" id="1_mhgok"]
 [ext_resource type="Material" uid="uid://dgucgrkhjqrj0" path="res://Advanced Vehicle Controller/Debug content/Red Box.tres" id="2_c6hdh"]
@@ -25,6 +25,7 @@
 [ext_resource type="PackedScene" uid="uid://wig6rtbyy8bp" path="res://Assets/Buildings/building_H.gltf" id="22_j8mjp"]
 [ext_resource type="PackedScene" uid="uid://ici8yryo8ovn" path="res://Assets/Buildings/car_stationwagon.gltf" id="23_e1yrf"]
 [ext_resource type="PackedScene" uid="uid://s8b71o0fcpja" path="res://Assets/Buildings/streetlight.gltf" id="23_xiauu"]
+[ext_resource type="PackedScene" uid="uid://ce81aju7brq1y" path="res://Assets/Buildings/bench.gltf" id="24_adlq0"]
 [ext_resource type="PackedScene" uid="uid://bg8oj51k1yeg4" path="res://Assets/Buildings/bush.gltf" id="24_hwtvo"]
 [ext_resource type="PackedScene" uid="uid://dr3ng278cmwwl" path="res://Assets/Buildings/car_police.gltf" id="24_syne4"]
 [ext_resource type="PackedScene" uid="uid://cyp1ebl6cupwh" path="res://Assets/Buildings/box_A.gltf" id="25_hqnec"]
@@ -48,6 +49,7 @@
 [ext_resource type="PackedScene" uid="uid://beiii68kbn77a" path="res://Assets/Farm/Barn.fbx" id="47_adlq0"]
 [ext_resource type="PackedScene" uid="uid://ba5agu3cx5cie" path="res://Assets/Farm/Fence.fbx" id="48_ivt4i"]
 [ext_resource type="PackedScene" uid="uid://m3l6iktdc740" path="res://Assets/Farm/Windmill.fbx" id="49_adlq0"]
+[ext_resource type="AudioStream" uid="uid://d3lcv1gr548kn" path="res://Metallica - Fuel (Official Music Video).mp3" id="50_8h8a1"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3rrre"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -2057,6 +2059,9 @@ transform = Transform3D(-0.999841, 0, 0.0178014, 0, 1, 0, -0.0178014, 0, -0.9998
 [node name="building_C3" parent="buildings first half" instance=ExtResource("13_fafsd")]
 transform = Transform3D(0.00715601, 0, 1.23123, 0, 1.23126, 0, -1.23123, 0, 0.00715601, -12.6532, -0.0185671, 5.12707)
 
+[node name="building_C7" parent="buildings first half" instance=ExtResource("13_fafsd")]
+transform = Transform3D(0.00715601, 0, 1.23123, 0, 1.23126, 0, -1.23123, 0, 0.00715601, -12.7684, -0.0185671, 17.5332)
+
 [node name="building_A13" parent="buildings first half" instance=ExtResource("12_6xb8w")]
 transform = Transform3D(-0.999841, 0, 0.0178014, 0, 1, 0, -0.0178014, 0, -0.999841, -20.7276, 0, 30.1562)
 
@@ -2142,10 +2147,10 @@ transform = Transform3D(-0.00938981, 0, -0.999956, 0, 1, 0, 0.999956, 0, -0.0093
 transform = Transform3D(-1.23125, 0, -0.0032018, 0, 1.23126, 0, 0.0032018, 0, -1.23125, -15.2768, -0.0185671, 12.3535)
 
 [node name="building_D5" parent="buildings first half" instance=ExtResource("14_51kjp")]
-transform = Transform3D(-0.0220808, 0, -0.908681, 0, 0.908949, 0, 0.908681, 0, -0.0220808, -17.0125, 0.0131862, 13.7809)
+transform = Transform3D(-0.0220808, 0, -0.908681, 0, 0.908949, 0, 0.908681, 0, -0.0220808, -16.9394, 0.0131862, 13.7809)
 
 [node name="building_E8" parent="buildings first half" instance=ExtResource("15_f4li7")]
-transform = Transform3D(-0.0235747, 0, -1.0231, 0, 1.02337, 0, 1.0231, 0, -0.0235747, -16.9636, 0.00492379, 15.7307)
+transform = Transform3D(-0.0235747, 0, -1.0231, 0, 1.02337, 0, 1.0231, 0, -0.0235747, -16.8896, 0.00492379, 15.7307)
 
 [node name="building_D6" parent="buildings first half" instance=ExtResource("14_51kjp")]
 transform = Transform3D(-0.0068144, 0, -0.850599, 0, 0.850626, 0, 0.850599, 0, -0.0068144, -8.96077, 0.0129211, 14.8618)
@@ -2192,11 +2197,17 @@ transform = Transform3D(0.908176, 0, -0.00521495, 0, 0.908191, 0, 0.00521495, 0,
 [node name="building_A2" parent="buildings first half" instance=ExtResource("12_6xb8w")]
 transform = Transform3D(0.0200128, 0, 0.838647, 0, 0.838886, 0, -0.838647, 0, 0.0200128, -12.3588, 0.013186, 8.67158)
 
+[node name="building_A18" parent="buildings first half" instance=ExtResource("12_6xb8w")]
+transform = Transform3D(0.0200128, 0, 0.838647, 0, 0.838886, 0, -0.838647, 0, 0.0200128, -12.3588, 0.013186, 15.603)
+
 [node name="building_B2" parent="buildings first half" instance=ExtResource("22_8cm3o")]
 transform = Transform3D(0.903347, 0, 0, 0, 0.903347, 0, 0, 0, 0.903347, -14.0911, 0.000773162, 8.60072)
 
 [node name="building_A11" parent="buildings first half" instance=ExtResource("12_6xb8w")]
 transform = Transform3D(0.0128934, 0, -0.98493, 0, 0.985015, 0, 0.98493, 0, 0.0128934, -8.83545, -0.00247632, 18.5828)
+
+[node name="building_A17" parent="buildings first half" instance=ExtResource("12_6xb8w")]
+transform = Transform3D(0.0128934, 0, -0.98493, 0, 0.985015, 0, 0.98493, 0, 0.0128934, -16.9719, -0.00247633, 17.7047)
 
 [node name="base2" parent="buildings first half" instance=ExtResource("21_8ypyu")]
 transform = Transform3D(2.874, 0, -0.0619079, 0, 2.87466, 0, 0.0619079, 0, 2.874, -6.96116, -0.179658, 21.2353)
@@ -2224,6 +2235,9 @@ transform = Transform3D(-0.0224484, 0, 0.95753, 0, 0.957794, 0, -0.95753, 0, -0.
 
 [node name="building_G8" parent="buildings first half" instance=ExtResource("20_syne4")]
 transform = Transform3D(-0.00249294, 0, 0.865673, 0, 0.865677, 0, -0.865673, 0, -0.00249294, -12.3247, 0.0131862, 13.9697)
+
+[node name="building_G11" parent="buildings first half" instance=ExtResource("20_syne4")]
+transform = Transform3D(0.0160146, 0, -0.865528, 0, 0.865677, 0, 0.865528, 0, 0.0160146, -17.0371, 0.0131862, 19.5058)
 
 [node name="building_G9" parent="buildings first half" instance=ExtResource("20_syne4")]
 transform = Transform3D(0.0137543, 0, 0.994963, 0, 0.995059, 0, -0.994963, 0, 0.0137543, -12.4525, -0.00203706, 6.94701)
@@ -2254,6 +2268,24 @@ transform = Transform3D(-0.020938, 0, -0.984791, 0, 0.985015, 0, 0.984791, 0, -0
 
 [node name="building_H8" parent="buildings first half" instance=ExtResource("22_j8mjp")]
 transform = Transform3D(-0.875285, 0, -0.0210857, 0, 0.875538, 0, 0.0210857, 0, -0.875285, -0.110254, 0.0131862, 12.1732)
+
+[node name="base3" parent="buildings first half" instance=ExtResource("21_8ypyu")]
+transform = Transform3D(1.56808, 0, 0, 0, 28.536, 0, 0, 0, 1.78155, -14.663, 0.013186, 20.769)
+
+[node name="base4" parent="buildings first half" instance=ExtResource("21_8ypyu")]
+transform = Transform3D(2.49447, 0, 0, 0, 2.49447, 0, 0, 0, 3.31328, -14.0074, -0.149851, 20.7492)
+
+[node name="Silo" parent="buildings first half" instance=ExtResource("41_740qy")]
+transform = Transform3D(0.19484, 0, 0, 0, 0.19484, 0, 0, 0, 0.19484, -14.8282, 2.76797, 22.062)
+
+[node name="Silo2" parent="buildings first half" instance=ExtResource("41_740qy")]
+transform = Transform3D(0.19484, 0, 0, 0, 0.19484, 0, 0, 0, 0.19484, -13.74, 1.82858, 19.6914)
+
+[node name="bench2" parent="buildings first half" instance=ExtResource("24_adlq0")]
+transform = Transform3D(-0.13792, 1.49524, 0, -1.49524, -0.13792, 0, 0, 0, 1.50159, -13.2034, 0.404179, 19.426)
+
+[node name="bench3" parent="buildings first half" instance=ExtResource("24_adlq0")]
+transform = Transform3D(-0.657379, 1.93209, 0, -7.1269, -0.178214, 0, 0, 0, 8.36434, -13.2034, 0.404179, 21.4319)
 
 [node name="building secound halfs" parent="." instance=ExtResource("12_6xb8w")]
 transform = Transform3D(-5.13223, 0, 0.0441617, 0, 5.13242, 0, -0.0441617, 0, -5.13223, -46.5396, 0.432323, -0.101204)
@@ -2296,6 +2328,9 @@ transform = Transform3D(0.00915011, 0, 0.924599, 0, 0.924644, 0, -0.924599, 0, 0
 
 [node name="building_F3" parent="building secound halfs" instance=ExtResource("17_2t8mp")]
 transform = Transform3D(-0.873485, 0, 0.00396378, 0, 0.873494, 0, -0.00396378, 0, -0.873485, -5.46154, 0.00726148, 3.53284)
+
+[node name="building_F10" parent="building secound halfs" instance=ExtResource("17_2t8mp")]
+transform = Transform3D(-0.0125922, 0, 0.873403, 0, 0.873494, 0, -0.873403, 0, -0.0125922, -3.64226, 0.00726148, 5.40294)
 
 [node name="building_G3" parent="building secound halfs" instance=ExtResource("20_syne4")]
 transform = Transform3D(-0.916779, 0, 0.0199883, 0, 0.916996, 0, -0.0199883, 0, -0.916779, -7.27105, -0.00182424, 3.56614)
@@ -3706,3 +3741,7 @@ render_target_update_mode = 4
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7894, 1, -144)
 is_current_veh = true
 player_id = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("50_8h8a1")
+autoplay = true

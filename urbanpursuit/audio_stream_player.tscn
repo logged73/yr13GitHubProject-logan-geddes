@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c55k6ojfr36yr"]
+
+[ext_resource type="AudioStream" uid="uid://d3lcv1gr548kn" path="res://Metallica - Fuel (Official Music Video).mp3" id="1_g84o6"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_g84o6")
+autoplay = true
+stream_paused = true
