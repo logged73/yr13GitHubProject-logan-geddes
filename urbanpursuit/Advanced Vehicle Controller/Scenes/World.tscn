@@ -64,6 +64,7 @@ background_mode = 2
 sky = SubResource("Sky_cebjg")
 tonemap_mode = 2
 glow_enabled = true
+fog_enabled = true
 fog_light_color = Color(0.0748772, 0.0855736, 0.102389, 1)
 fog_light_energy = 14.0
 
@@ -102,13 +103,13 @@ size = Vector3(28.7282, 18.3097, 1)
 environment = SubResource("Environment_fqky0")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866025, -0.5, -2.18557e-08, 0, -4.37114e-08, 1, -0.5, 0.866025, 3.78552e-08, 0, 0, 0)
+transform = Transform3D(-0.866025, -0.5, -2.18557e-08, 0, -4.37114e-08, 1, -0.5, 0.866025, 3.78552e-08, 0, 146.285, 0)
+visible = false
 shadow_enabled = true
 shadow_blur = 10.0
 directional_shadow_max_distance = 200.0
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
-visible = false
 navigation_mesh = SubResource("NavigationMesh_w55dn")
 
 [node name="Arena" type="Node3D" parent="NavigationRegion3D"]
@@ -1907,6 +1908,9 @@ transform = Transform3D(9.85281, 0, 0, 0, 14.555, 0, 0, 0, 14.555, 80.7359, -1.0
 
 [node name="base11" parent="road_junction2" instance=ExtResource("21_8ypyu")]
 transform = Transform3D(9.85281, 0, 0, 0, 14.555, 0, 0, 0, 14.555, 80.7359, -1.00995, 73.2501)
+
+[node name="base26" parent="road_junction2" instance=ExtResource("21_8ypyu")]
+transform = Transform3D(9.85281, 0, 0, 0, 14.555, 0, 0, 0, 14.555, 80.7359, -1.00995, 27.6984)
 
 [node name="base12" parent="road_junction2" instance=ExtResource("21_8ypyu")]
 transform = Transform3D(0.0240754, 0, 14.555, 0, 14.555, 0, -9.85278, 0, 0.0355652, 70.3459, -1.00995, 143.574)
@@ -5548,3 +5552,12 @@ shape = SubResource("BoxShape3D_ctpnp")
 
 [node name="Terrain_2" parent="." instance=ExtResource("6_l1oth")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.0984, 0.554297, 248.961)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(0.154736, -0.595861, 0.78804, 0.114808, 0.803088, 0.584696, -0.981263, -2.27786e-08, 0.192676, 668.497, 209.728, 43.8037)
+light_color = Color(0.886275, 0.509804, 0, 1)
+light_energy = 306.145
+shadow_enabled = true
+shadow_bias = 4.444
+shadow_normal_bias = 2.515
+spot_range = 2833.66
